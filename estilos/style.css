@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+text-align: center;
+}
+.link{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 2rem;
+}
+h1{
+    text-align: center;
+    color:lightgreen;
+    font-size: 6rem;
+}
+h2{
+    display:flex;
+    justify-content:center;
+    font-size: 4rem;
+    color: lightseagreen;
+}
+ul{
+    font-size: 2rem;
+}
+@media(width:750px){
+    div{
+
+    }
+    h1{
+
+    }
+}
+@media(width:400px){
+    div{
+
+    }
+    h1{
+
+    }
+}
+@media(width:1000px){
+    div{
+
+    }
+    h1{
+        
+    }
+}
